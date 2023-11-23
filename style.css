@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%; /* 62.5% de 16px (padrão do navegador) + 10px */
+}
+
+body {
+  background: #ece9fd;
+  
+  padding: 6.0rem 2.3rem 6.6rem; /* 60px 23px 66px */
+  font-size: 1.6rem; /* Voltando com os 16px padrão do navegador. */
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 4.0rem; /* 40px */
+  line-height: 4.8rem; /* 48px */
+}
+
+
