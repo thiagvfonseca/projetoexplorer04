@@ -5,13 +5,15 @@
 }
 
 :root {
-  font-size: 62.5%; /* 62.5% de 16px (padrão do navegador) + 10px */
+  font-size: 62.5%; /* 62.5% de 16px (padrão do navegador) = 10px */
 }
 
 body {
   background: #ece9fd;
-  
-  padding: 6.0rem 2.3rem 6.6rem; /* 60px 23px 66px */
+
+  padding: 6rem 2.3rem 6.6rem; /* 60px 23px 66px */
+
+  font-family: "Epilogue", sans-serif;
   font-size: 1.6rem; /* Voltando com os 16px padrão do navegador. */
 }
 
@@ -20,9 +22,46 @@ ul {
 }
 
 h1 {
-  font-family: 'Epilogue', sans-serif;
-  font-size: 4.0rem; /* 40px */
+  color: #090039;
+
+  font-weight: 800;
+  font-size: 4rem; /* 40px */
   line-height: 4.8rem; /* 48px */
+
+  margin-bottom: 1.5rem;
+}
+
+main p:first-child {
+  color: #7158ef;
+
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+  margin-bottom: 1.7rem;
+}
+
+h1 + p {
+  color: rgba(10, 0, 57, 0.64);
+
+  line-height: 3.2rem;
+
+  margin-bottom: 3.2rem;
+}
+
+a {
+  color: #090039;
+
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+ul {
+  margin-top: 7.2rem;
 }
 
 
